@@ -30,7 +30,12 @@ Then edit .htaccess file:
 vi .htaccess
 ```
 
-And add the following:
+Development Mode: And add the following:
 ```
 PassengerFriendlyErrorPages on
+```
+
+Production Mode: And add the following:
+```
+PassengerFriendlyErrorPages off
 ```
